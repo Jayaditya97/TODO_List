@@ -41,7 +41,7 @@ function displayTasks() {
         <p id="todo-${index}" class="${
       item.disabled ? "disabled" : ""
     }" onclick="editTask(${index})">${item.text}</p>
-        <button class="delete-btn" onclick="deleteTask(${index})"><img src="trash-can-solid.svg"></button>
+        <button class="delete-btn" onclick="deleteTask(${index})"><img src="https://fontawesome.com/icons/trash-can?f=classic&s=solid"></button>
       </div>
     `;
     p.querySelector(".todo-checkbox").addEventListener("change", () =>
